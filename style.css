@@ -12,41 +12,6 @@ body {
   color: #333;
 }
 
-/* NAV */
-nav {
-  background: white;
-  backdrop-filter: blur(10px);
-  padding: 15px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: rgba(15, 32, 39, 0.95);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-nav h2 {
-  font-size: 24px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: rgba(15, 32, 39, 0.95);
-  text-decoration: none;
-  font-size: 16spx;
-  transition: 0.3s;
-}
-
-nav ul li a:hover {
-  color: #00c6ff;
-}
-
 /* HERO */
 .hero {
   height: 95vh;
@@ -130,7 +95,24 @@ section h2 {
   margin: auto;
   line-height: 1.6;
 }
-
+.about-img {
+  margin: 0 auto;
+}
+.about-img img {
+  width: 600px;
+  align-items: center;
+  border-radius: 15px;
+}
+.vision h3,
+.mission h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+.vision p,
+.mission p {
+  text-align: left;
+  line-height: 1.6;
+}
 /* COURSES */
 .course-grid {
   display: grid;
