@@ -100,7 +100,22 @@ section h2 {
 .about-img img {
   width: 550px;
 }
-
+.mission {
+  width: 250px;
+  background-color: #0f2027;
+  color: white;
+  margin-left:5px ;
+}
+.mission-img img {
+  width: 100%;
+}
+.vision {
+  background-color: #0f2027;
+  color: white;
+}
+.vision-img img {
+  width: 100%;
+}
 .vision h3,
 .mission h3 {
   text-align: center;
