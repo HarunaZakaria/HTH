@@ -107,7 +107,8 @@ section h2 {
   width: 550px;
 }
 
-.vision {
+.vision,
+.mission {
   padding-top: 50px;
 }
 .vision-img img {
@@ -130,14 +131,9 @@ section h2 {
   text-align: left;
   line-height: 1.6;
 }
-.mission {
-  width: 250px;
-  background-color: #0f2027;
-  color: white;
-  margin-left: 5px;
-}
 .mission-img img {
   width: 100%;
+  border-radius: 15px;
 }
 /* COURSES */
 .course-grid {
