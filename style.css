@@ -106,10 +106,11 @@ section h2 {
 .about-img img {
   width: 550px;
 }
-
-.vision,
+.vision {
+  padding-top: 120px;
+}
 .mission {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .vision-img img {
   width: 100%;
