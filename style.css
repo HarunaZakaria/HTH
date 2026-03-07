@@ -42,12 +42,14 @@ body {
   font-size: 50px;
   margin-bottom: 20px;
   animation: fadeDown 1s ease forwards;
+  font-weight: 900;
 }
 
 .hero p {
   font-size: 18px;
   margin-bottom: 25px;
   animation: fadeUp 1.2s ease forwards;
+  font-size: 1.5rem;
 }
 
 .hero button {
@@ -95,36 +97,47 @@ section h2 {
   margin: auto;
   line-height: 1.6;
   padding-bottom: 40px;
+  font-size: 1.5rem;
+}
+.about h2 {
+  font-weight: 900;
 }
 
 .about-img img {
   width: 550px;
 }
-.mission {
-  width: 250px;
-  background-color: #0f2027;
-  color: white;
-  margin-left:5px ;
-}
-.mission-img img {
-  width: 100%;
-}
+
 .vision {
-  background-color: #0f2027;
-  color: white;
+  padding-top: 50px;
 }
 .vision-img img {
   width: 100%;
+  border-radius: 15px;
+}
+.vision-text p {
+  text-align: center;
+  font-size: 1.5rem;
 }
 .vision h3,
 .mission h3 {
   text-align: center;
   padding-top: 30px;
+  font-size: 2rem;
+  font-weight: 900;
 }
 .vision p,
 .mission p {
   text-align: left;
   line-height: 1.6;
+}
+.mission {
+  width: 250px;
+  background-color: #0f2027;
+  color: white;
+  margin-left: 5px;
+}
+.mission-img img {
+  width: 100%;
 }
 /* COURSES */
 .course-grid {
