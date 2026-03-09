@@ -144,12 +144,13 @@ section h2 {
 }
 
 .course-card {
-  background: white;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #1c92d2);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: 0.4s ease;
+  color: white;
 }
 
 .course-card:hover {
@@ -164,7 +165,7 @@ section h2 {
 .price {
   margin-top: 15px;
   font-size: 14px;
-  background: #f4f7fa;
+  background: #1c92d2;
   padding: 12px;
   border-radius: 10px;
 }
@@ -258,5 +259,9 @@ footer {
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 34px;
+    color: red;
+  }
+  body {
+    background-color: red;
   }
 }
